@@ -1,10 +1,4 @@
 # polkadot_api_dotnet
-
-## Milestones
-
-- [Milestone 1](https://github.com/usetech-llc/polkadot_api_dotnet/blob/master/doc/demo_milestone1.md)
-- [Milestone 2](https://github.com/usetech-llc/polkadot_api_dotnet/blob/master/doc/demo_milestone2.md)
-
 ## Requirements
 
 ### Windows
@@ -24,16 +18,11 @@ Please use Ctrl+Shift+B in Visual Studio :)
 
 ### Linux
 
-```
-git clone https://github.com/usetech-llc/polkadot_api_dotnet && cd polkadot_api_dotnet
 $ dotnet build
 $ dotnet test
 ```
 
 ### Docker
-
-```
-git clone https://github.com/usetech-llc/polkadot_api_dotnet && cd polkadot_api_dotnet
 $ docker build -t polkanet .
 $ docker run -it --rm polkanet /bin/bash
 # dotnet build
